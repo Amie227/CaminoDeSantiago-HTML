@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>網站設計架構</title>
+    <link href="./設計.css" rel="stylesheet" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Noto+Serif+TC:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>網站設計架構</h1>
+    </header>
+
+    <section class="design-process">
+        <h2>Design Process</h2>
+        <p>
+            在這個 project 中，從規劃到實現，設計過程如下：
+        </p>
+        <ol>
+            <li>需求分析：朝聖之路路線多樣且各有特色，因此設計此網頁介紹每條路線。</li>
+            <li>設計草稿：使用手繪草稿創建初步的頁面結構和佈局。</li>
+            <li>顏色與風格：繪製草稿時一併考慮，我選用了藏藍色為主要色調，確保網頁風格一致，以及有質感。</li>
+            <li>元素佈局：使用HTML和CSS創建了結構清晰的網頁，確保頁面元素有層次感。</li>
+            <li>動畫效果：在圖片上添加了一些CSS動畫效果，提升用戶體驗，例如：鼠標移動到圖片上，圖片會稍微放大/縮小。</li>
+            <li>靈感：近期在youtube上看到有人花好幾天徒步走完朝聖之路，覺得很有意思，但因為路線多樣且沿路風景不同，各有各的特色，若我是朝聖者會難以一眼決定要走哪一條路線。</li>
+            <li>概述：此網站採用響應式網頁設計，可依照不同裝置或瀏覽器視窗大小自動調整頁面佈局與內容呈現。主頁最上方設有navigation bar可方便導覽，底下每條路線將分區塊介紹，底部設有footer。我將每頁導出頁面都設計的不一樣，且增加一些新元素。</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Feedback</h2>
+        <form id="feedbackForm">
+            <label for="feedback">Your Feedback:</label>
+            <textarea name="feedback"></textarea>
+            <br>
+            <input type="submit" value="送出">
+        </form>
+    </section>
+
+    <section class="design-images">
+        <h2>Design Images</h2>
+        <div class="image-container">
+            <div class="image-item">
+                <img src="images/設計1.jpg" width="48%" height="" alt="Design Image 1">
+                <p>設計草稿</p>
+            </div>
+            <div class="image-item">
+                <img src="images/設計2.jpg" width="50%" height="" alt="Design Image 2">
+                <p>設計草稿</p>
+            </div>
+            <div class="image-item">
+                <img src="images/設計3.jpg" width="61%" height="" alt="Design Image 3">
+                <p>設計草稿</p>
+            </div>
+        </div>
+    </section>
+    <a href="index.html" class="homeA">home</a>
+
+</body>
+</html>
